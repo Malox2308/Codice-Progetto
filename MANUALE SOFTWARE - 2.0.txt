@@ -1,0 +1,111 @@
+MANUALE SOFTWARE STUDIO MEDICO.
+
+
+
+1) HOME:
+
+	* La schermata di home e' suddivisa in 2 sezioni. 
+		- La prima dedicata al login del medico, il quale accedera' alla propria area riservata, accedibile tramite il 
+		   pulsante "MEDICO";
+		- La seconda dedicata all' accesso da parte dello staff della segreteria dalla quale potra' eseguire le proprie
+		   mansioni, accedibile tramite il pulsante "SEGRETERIA";
+
+2) HOME SEGRETERIA:
+
+	* Qui si possono selezionare le varie opzioni eseguibili dalla segreteria tramite un menu' a tendina.
+	* Selezionare l' operazione desiderata e premere sul pulsante "APRI":
+
+		2A - Cartelle Pazienti: 
+				Area dove e' possibile visionare quali pazienti siano registrati ai medici presenti in studio,
+		        		selezionando il paziente e cliccando sul bottone "APRI" e' possibile visionare tutti i 
+				dati del paziente selezionato.
+
+		2B - Prenotazioni: 
+				Area dedicata alle prenotazioni delle visite mediche, premere "APRI" sul mese dove 
+			             	bisogna effettuare la prenotazione. Successivamente per registarare la prenotazione 
+			             	premere "NUOVO". Verra' aperta una finestra con i campi da riempire per effettuare 
+			             	la prenotazione. Una volta riempiti i campi cliccare "AGGIUNGI" e la prenotazione 
+			             	sara' salvata.
+			             	Per disdire una prenotazione, selezionare quella da voler rimuovere e 
+			             	premere il tasto  "DISDICI". Confermare la rimozione di seguito al messaggio di
+			             	controllo, la prenotazione sara' eliminata.
+			             	Per rimuovere tutte le prenotazioni del mese corrente premere il pulsante "CLEAR",
+			             	confermare l' operazione di seguito al controllo ed infine le prenotazioni saranno rimosse.
+		
+		2C - Gestisci Staff: 
+				Area per registrare  / rimuovere un membro dello staff, nella schermata saranno 
+		                                 	visionati i membri attualmente registrati. 
+		        	              	Per  effettuare una nuova registrazione premere sul pulsante "NUOVO", inserire i campi richiesti e 
+		        	              	confermare con il pulsante "OK".
+		        	              	Per rimuovre un membro dello staff, occore selezionare il soggetto desiderato e cliccare il bottone "APRI",
+		        	              	e' possibile visionare tutti i dati del soggetto, per rimuoverlo e' necessario premere il pulsante "ELIMINA".
+
+
+		2D - Aggiorna Medici: 
+				Area per  registrare  / rimuovere un nuovo medico, nella schermata saranno 
+		        	                   	visionati i medici attualmente registrati. 
+		        	                   	Per  effettuare una nuova registrazione premere sul pulsante "NUOVO", inserire i campi richiesti e 
+		        	                   	confermare con il pulsante "OK".
+		        	                   	Per rimuovre un membro dello staff, occore selezionare il soggetto desiderato, cliccare il bottone "APRI",
+		        	                   	e' possibile visionare tutti i dati del soggetto, per rimuoverlo e' necessario premere il pulsante "ELIMINA".
+		
+					 
+		2E - Magazzino: 	
+				Area dedicata alla gestione del magazzino.
+		        	          	Nella prima schermata e' possibile scegliere tra due opzioni "MODIFICA INVENTARIO" e "AGGIORNA SCORTE".
+		        	          	Scegliendo la prima opzione si possono visionare tutti gli strumenti sanitari presenti in magazzino, ai quali si 
+		        	         	si potra' modificare la soglia minima, selezionare il materiale a cui bisogna cambiare la soglia  e cliccare "PROSEGUI".
+		                            	Ora immettere una nuova soglia minima, e confermare premendo "CAMBIA".
+		        	          	Con la seconda opzione proposta nella prima schermata sara' possibile aggiornare il numero delle scorte presenti 
+		        	          	all' inetrno del magazzino, selezionare il materiale da voler modificare, premere "PROSEGUI", successivamente
+		        	         	digitare la quantità di scorte utilizzate / da aggiungere, per le scorte utilizzate premere il bottone " - " altrimenti per 
+		         	         	aggiungere nuove scorte premere il bottone " + ".
+		        	         	In entrambi i casi le scorte saranno aggiornate nel prossimo accesso al magazzino.
+
+		2F - Pagamenti: 
+				Area dedicata alla gestione dei pagamenti.
+		       	          	Una volta effettuata la visita al paziente, se possiede un certificato che va pagato, bisogna selezionare il tipo
+		                             	di certificato presente nella schermata iniziale e cliccare il pulsante "PROSEGUI", aprira' una finestra con i
+		                             	dati del certificato come il prezzo, e il pulsante "FATTURA" che permette di stampare la fattura, seguita
+		                             	dal pulsante "CHIUDI" per chiudere la schermata.
+
+
+3) HOME MEDICO:   
+
+	* Nella prima schermata saranno visibili i pazienti presi in cura dal medico che effettuera' il login, selezionabili tramite un menù a tendina.
+	* Il medico dovra' selezionare l' operazione da eseguire attraverso un menu' a tendina, e provedere premende il pulsante "PROSEGUI":
+
+		3A - Cartella Clinica: 
+				Area dedicata alla visualizzazzione della cartella clinica del paziente precedentemente selezionato, 
+		         	     	verranno visualizzati i vari dati del paziente, inoltre e' possibile modificare i campi "patologie" , "allergie". Inserire 
+		         	     	all' interno della casella di testo le ventuali allergie e patologie da aggiornare, una volta digitare premere sul pulsante
+		         	     	"AGGIORNA" (la schermata si aggiornerà con la prossima apertura della cartella).
+
+		3B - Prescrivi Visita: 
+				Area dedicata alla prescrizione di visite ospedaliere.
+			                  	Il medico dovra' inserire tutti i campi richiesti negli appositi spazi dedicati, per poi confermare premendo il 
+			                  	pulsante "PROSEGUI". Si aprira' una schermata risassuntiva dei dati inseriti, successivamente premere  
+			                  	"SALVA", verra' notificato il corretto salvataggio e creazione del certificato da stampare con all' interno
+			                  	i dati inseriti precedentemente, infine il medico provvederà a timbrare e firmare il certificato.
+
+		3C - Stampa Ricetta:
+				Area dedicata alla stampa della 	ricetta medica.
+				Premere "STAMPA" per creare il file contenente la ricetta da poter stampare.			
+
+		3C - Stampa Cert Anam: 
+				Area dedicata alla stampa del certificato anamnestico.
+				Premere "STAMPA" per creare il file contenente il certificato da stampare.
+
+		3C - Stampa Cert Idoneita' Sport:
+				Area dedicata alla stampa del certificato di idoneità sportiva.
+				Premere "STAMPA" per creare il file contenente il certificato da stampare.
+
+		3C - Stampa Domanda Invelidità: 
+				Area dedicata alla stampa della domanda di invalidità.
+				Premere "STAMPA" per creare il file contenente il certificato da stampare.
+
+
+		    
+		       
+
+

@@ -1,0 +1,10 @@
+Salve professori, se alcune cose all' interno del software non dovessero funzionere 
+come la stampa dei certificati è dovuta alla cartella dove verrebbero salvati, poichè la directory 
+indicata è quella dei nostri PC.
+Per quanto riguarda i pazienti sono registrati tramite un file Json per "Simulare" il server della ASL.
+Le email e le password per accedere alla sezione dei medici sono:
+email: email - password: 1234
+email: email - password: 12345
+Se verrebbe creato un nuovo medico non avrebbe i pazienti assegnati, poiche con il json abbiamo provato 
+a "Simulare" il server ASL
+
